@@ -155,7 +155,7 @@ const data = {
 const BarChart = ({ className }: { className?: string }) => {
   return (
     <section
-      className={`${className} flex flex-col gap-10 p-[30px] rounded-md bg-[#FFFFFF] border-2 border-[#eceef6] `}
+      className={`${className} w-full h-full flex flex-col gap-10 p-[30px] rounded-md bg-[#FFFFFF] border-2 border-[#eceef6] `}
     >
       <div className='flex justify-between items-center mb-5'>
         <h1 className='text-[22.4px] font-bold '>Job Statistics</h1>
@@ -174,7 +174,7 @@ const BarChart = ({ className }: { className?: string }) => {
           </button>
         </div>
       </div>
-      <div className='flex-1'>
+      <div className='flex-1 h-full w-full min-h-[300px] '>
         <Bar options={options} data={data} />
       </div>
     </section>

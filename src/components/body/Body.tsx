@@ -11,7 +11,7 @@ const boxs = [
 
 const Body = () => {
   return (
-    <div className='grid grid-cols-[repeat(4,minmax(139px,1fr))] grid-rows-[auto_1fr_auto] gap-6 p-10 bg-[#eef9fa] '>
+    <div className='grid grid-cols-[repeat(4,minmax(249px,1fr))] grid-rows-[auto_1fr_auto] gap-6 p-10 bg-[#eef9fa] '>
       {boxs.map((box, i) => (
         <div
           key={i}
